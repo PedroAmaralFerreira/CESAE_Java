@@ -8,6 +8,9 @@ public class Ex_02 {
         // Importar dados
         Scanner input = new Scanner(System.in);
 
+        // Declarar variáveis
+        int resultado;
+
         // Introduzir o primeiro número
         System.out.print("Introduza um número: ");
         int num1 = input.nextInt();
@@ -16,16 +19,20 @@ public class Ex_02 {
         System.out.print("Introduza um número: ");
         int num2 = input.nextInt();
 
-        // Operações
-        int soma = num1 + num2;
-        int sub = num1 - num2;
-        int mult = num1 * num2;
-        int div = num1 / num2;
+        // Calcular a soma
+        resultado = num1 + num2;
+        System.out.println("Soma: "+resultado);
 
-        // Resultados das diferentes operações
-        System.out.println("Soma: "+soma);
-        System.out.println("Subtração: "+sub);
-        System.out.println("Multiplicação: "+mult);
-        System.out.println("Divisão: "+div);
+        // Calcular a subtração
+        resultado = num1 - num2;
+        System.out.println("Subtração: "+resultado);
+
+        // Calcular a multiplicação
+        resultado = num1 * num2;
+        System.out.println("Multiplicação: "+resultado);
+
+        // Calcular a divisão
+        resultado = num1 / num2;
+        System.out.println("Divisão: "+resultado);
     }
 }

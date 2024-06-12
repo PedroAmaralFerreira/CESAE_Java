@@ -16,7 +16,7 @@ public class Ex_09 {
         double vencimento = 40 * dias;
         double alimentacao = 5 * dias;
         double irs = vencimento * 0.1;
-        double social = vencimento * 0.3475;
+        double social = vencimento * 0.11;
         double liquido = vencimento - irs - social;
 
         // Apresentar valores pedidos
