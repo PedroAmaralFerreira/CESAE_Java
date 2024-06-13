@@ -13,6 +13,8 @@ public class Ex_10 {
         System.out.println("Introduzir número: ");
         num = input.nextInt();
 
+        // Condição que vai verificar se o número é par
+        // e irá fazer print, caso seja
         while (num2 <= num){
             System.out.println(num2);
             num2++;
