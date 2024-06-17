@@ -10,7 +10,7 @@ public class Ex_10 {
         int num, num2=2;
 
         // Ler número
-        System.out.println("Introduzir número: ");
+        System.out.print("Introduzir número: ");
         num = input.nextInt();
 
         // Condição que vai verificar se o número é par
