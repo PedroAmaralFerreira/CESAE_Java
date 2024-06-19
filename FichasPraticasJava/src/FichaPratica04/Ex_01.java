@@ -1,5 +1,4 @@
 package FichaPratica04;
-import javax.swing.plaf.IconUIResource;
 import java.util.Scanner;
 public class Ex_01 {
     public static void main(String[] args) {
@@ -8,69 +7,46 @@ public class Ex_01 {
 
         int num1, num2, resultado;
         String operador, cont;
+        boolean continuar = true;
 
-        System.out.print("Introduzida um número: ");
-        num1 = input.nextInt();
-        System.out.print("Introduzida um número: ");
-        num2 = input.nextInt();
-        System.out.print("Introduzida um operador: ");
-        operador = input.next();
+        do {
+            System.out.print("Introduzida um número: ");
+            num1 = input.nextInt();
+            System.out.print("Introduzida um número: ");
+            num2 = input.nextInt();
+            System.out.print("Introduzida um operador: ");
+            operador = input.next();
 
-        switch (operador){
-            case "+":
-                resultado = num1 + num2;
-                System.out.println(resultado);
-                break;
-            case "-":
-                resultado = num1 - num2;
-                System.out.println(resultado);
-                break;
-            case "/":
-                resultado = num1 / num2;
-                System.out.println(resultado);
-                break;
-            case "*":
-                resultado = num1 * num2;
-                System.out.println(resultado);
-                break;
-            default:
-                System.out.println("INVÁLIDO!");
-        }
+            switch (operador) {
+                case "+":
+                    resultado = num1 + num2;
+                    System.out.println(resultado);
+                    break;
+                case "-":
+                    resultado = num1 - num2;
+                    System.out.println(resultado);
+                    break;
+                case "/":
+                    resultado = num1 / num2;
+                    System.out.println(resultado);
+                    break;
+                case "*":
+                    resultado = num1 * num2;
+                    System.out.println(resultado);
+                    break;
+                default:
+                    System.out.println("INVÁLIDO!");
+            }
 
-        System.out.println("Deseja continuar?\n(introduza s/n): ");
-        cont = input.next();
+            System.out.println("Deseja continuar?\n(introduza s/n): ");
+            cont = input.next();
 
-        switch (cont){
-            case "s":
-                System.out.print("Introduzida um número: ");
-                num1 = input.nextInt();
-                System.out.print("Introduzida um número: ");
-                num2 = input.nextInt();
-                System.out.print("Introduzida um operador: ");
-                operador = input.next();
+            if (cont == "s")
+                continuar = true;
+            if (cont == "n")
+                continuar = false;
 
-                switch (operador){
-                    case "+":
-                        resultado = num1 + num2;
-                        System.out.println(resultado);
-                        break;
-                    case "-":
-                        resultado = num1 - num2;
-                        System.out.println(resultado);
-                        break;
-                    case "/":
-                        resultado = num1 / num2;
-                        System.out.println(resultado);
-                        break;
-                    case "*":
-                        resultado = num1 * num2;
-                        System.out.println(resultado);
-                        break;
-                    default:
-                        System.out.println("INVÁLIDO!");
-                }
-                System.out.println("Deseja continuar?\n(introduza s/n): ");
-                cont = input.next();
-        }
+        } while ();
+
     }
 }
