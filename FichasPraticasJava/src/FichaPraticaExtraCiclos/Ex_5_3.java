@@ -6,7 +6,7 @@ public class Ex_5_3 {
         // Ler variável
         int num = 5;
 
-        // Print dos símbolo "*"
+        // Print dos números
         for (int i=1; i <= num; i++){
             for (int j = i; j <= num; j++) {
                 System.out.print(" ");
