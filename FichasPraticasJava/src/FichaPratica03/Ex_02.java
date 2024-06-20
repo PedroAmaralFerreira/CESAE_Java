@@ -3,12 +3,12 @@ public class Ex_02 {
     public static void main(String[] args) {
 
         // Declarar variáveis
-        int num = 2;
+        int num = 1;
 
-        // Ler números de 2 em 2
-        while(num <= 400){
-            System.out.println(num);
-            num = num + 2;
+        while (num >= 1 && num <= 400){
+            if (num % 2 == 0)
+                System.out.println(num);
+            num++;
         }
     }
 }
