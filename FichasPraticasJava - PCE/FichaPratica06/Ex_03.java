@@ -44,14 +44,17 @@ public class Ex_03 {
 
     static boolean triangulo(int num){
 
+        // Declarar variáveis
         int soma = 0;
         int cont = 1;
 
+        // Verificar se o numero e triangular
         while (soma < num){
             soma += cont;
             cont++;
         }
 
+        // Retorna o resultado da verificacao
         return num == soma;
 
     }
