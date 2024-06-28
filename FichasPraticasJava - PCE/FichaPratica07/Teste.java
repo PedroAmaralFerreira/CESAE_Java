@@ -9,7 +9,7 @@ public class Teste {
     public static void usingPrintWriter() throws FileNotFoundException{
         String fileContent = "Hello! My name is Pedro!";
 
-        File file = new File("/Users/pedroferreira/Documents/Programming/CESAE/CESAE_PedroFerreira/FichasPraticasJava - PCE/Exemplo.txt");
+        File file = new File("/Users/pedroferreira/Documents/Programming/CESAE/CESAE_PedroFerreira/FichasPraticasJava - PCE/Exemplo");
         PrintWriter printWriter = new PrintWriter(file);
 
         printWriter.println(fileContent);

@@ -8,17 +8,18 @@ public class Ex_07 {
 
         // Declarar variaveis
         int[] num = new int[10];
-        Boolean crescente = true;
         int numMaior=0;
 
         // Introduzir numeros
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < num.length; i++) {
             System.out.print("Introduza o "+(i+1)+"º número: ");
             num[i] = scanner.nextInt();
         }
 
+        numMaior = num[0];
+
         // Verificar numero par maior
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < num.length; i++) {
             if (num[i] % 2 == 0 && num[i]>numMaior)
                 numMaior = num[i];
         }
