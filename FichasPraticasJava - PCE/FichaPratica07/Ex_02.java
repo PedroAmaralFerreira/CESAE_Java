@@ -3,26 +3,27 @@ package FichaPratica07;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.util.Scanner;
 
 public class Ex_02 {
 
-    public static void criarFicheiro(String path) throws FileNotFoundException{
+    public static void criarFicheiro(String path, String path2) throws FileNotFoundException{
 
-        String mensagem = "Java is the best! Put your coding to the test";
+        Scanner scannerFicheiro = new Scanner(new File(path));
+        File file = new File(path2);
+        PrintWriter printWriter = new PrintWriter(file);
 
-        File novoFicheiro = new File(path);
-        PrintWriter printWriter = new PrintWriter(novoFicheiro);
-
-        printWriter.println(mensagem);
+        while (scannerFicheiro.hasNextLine()){
+            String linha = scannerFicheiro.nextLine();
+            printWriter.println(linha);
+        }
 
         printWriter.close();
-
     }
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        criarFicheiro("Exemplo02.txt");
+        criarFicheiro("exercicio_01_Alternativa02.txt", "exercicio_02.txt");
 
     }
-
 }
