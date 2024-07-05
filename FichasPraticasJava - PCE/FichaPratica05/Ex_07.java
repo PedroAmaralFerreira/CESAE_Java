@@ -8,7 +8,6 @@ public class Ex_07 {
 
         // Declarar variaveis
         int[] num = new int[10];
-        int numMaior=0;
 
         // Introduzir numeros
         for (int i = 0; i < num.length; i++) {
@@ -16,7 +15,7 @@ public class Ex_07 {
             num[i] = scanner.nextInt();
         }
 
-        numMaior = num[0];
+        int numMaior = num[0];
 
         // Verificar numero par maior
         for (int i = 0; i < num.length; i++) {

@@ -7,7 +7,7 @@ public class Ex_07 {
         Scanner input = new Scanner(System.in);
 
         // Declarar variáveis
-        int num=0, soma=0;
+        int num=1, soma=0;
 
         // Condição que irá fazer print de 1 a 100
         // e somar todos os números

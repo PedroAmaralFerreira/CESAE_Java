@@ -4,7 +4,7 @@ public class Ex_03 {
     public static void main(String[] args) {
 
         // Declarar variáveis
-        int num = 571;
+        int num = 531;
 
         // Ler números de 2 em 2
         while(num <= 750) {

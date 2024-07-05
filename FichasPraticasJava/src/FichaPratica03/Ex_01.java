@@ -6,7 +6,7 @@ public class Ex_01 {
         // Declarar variáveis
         int num = 1;
 
-        while (num >=1 && num <=250){
+        while (num <=250){
             System.out.println(num);
             num++;
         }

@@ -5,10 +5,9 @@ public class Ex_02 {
         // Declarar variáveis
         int num = 1;
 
-        while (num >= 1 && num <= 400){
-            if (num % 2 == 0)
-                System.out.println(num);
-            num++;
+        while (num <= 400){
+            System.out.println(num);
+            num += 2;
         }
     }
 }

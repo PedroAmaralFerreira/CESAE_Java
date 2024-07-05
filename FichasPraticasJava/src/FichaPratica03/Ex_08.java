@@ -7,22 +7,21 @@ public class Ex_08 {
         Scanner input = new Scanner(System.in);
 
         // Declarar variáveis
-        int num, numOriginal, numFinal;
+        int numAntecessor, numOriginal, numFinal;
 
         // Ler número
         System.out.print("Introduzir um número: ");
-        num = input.nextInt();
-        numOriginal = num;
-        numFinal = num + 5;
-        num = num - 5;
+        numOriginal = input.nextInt();
+        numAntecessor = numOriginal - 5;
+        numFinal = numOriginal + 5;
 
         // Condição que fará print dos 5 numeros anteriores e posteriores
-        while (num <= numFinal){
-            System.out.println(num);
-            num++;
-            // Condição que passará à frente o número introduzido
-            if (num == numOriginal)
-                num++;
+        while (numAntecessor <= numFinal){
+            if (numAntecessor != numOriginal)
+                System.out.println(numAntecessor);
+            else
+                System.out.println();
+            numAntecessor++;
         }
     }
 }

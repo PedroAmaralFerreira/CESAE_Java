@@ -62,7 +62,7 @@ public class Ex_05 {
     static int maior(int[] vetor){
 
         // Declarar variaveis
-        int numMaior = 0;
+        int numMaior = vetor[0];
 
         // Verificar numero maior
         for (int i = 0; i < vetor.length; i++) {

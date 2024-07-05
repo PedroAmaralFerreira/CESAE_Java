@@ -13,7 +13,7 @@ public class Ex_05 {
 
         // Introduzir numeros
         for (int i = 0; i < 12; i++) {
-            System.out.println("Insira um número no Array["+(i)+"]: ");
+            System.out.print("Insira um número no Array["+(i)+"]: ");
             num[i] = scanner.nextInt();;
         }
 
