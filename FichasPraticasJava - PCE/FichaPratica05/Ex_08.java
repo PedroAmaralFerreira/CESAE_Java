@@ -10,7 +10,7 @@ public class Ex_08 {
 
         for (int i = 0; i <= 2; i++) {
             for (int j = 0; j <= 2; j++) {
-                System.out.print("Fila: "+(i+1)+"\nPosição: "+(j+1)+"\nIntroduza um número: ");
+                System.out.print("Vetor[" + i + "]["+j+"]: ");
                 num[i][j] = scanner.nextInt();
             }
         }
@@ -21,5 +21,7 @@ public class Ex_08 {
             }
             System.out.println();
         }
+
+        System.out.println(num[2][1]);
     }
 }
