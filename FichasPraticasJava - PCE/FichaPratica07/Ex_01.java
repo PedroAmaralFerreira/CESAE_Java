@@ -13,7 +13,6 @@ public class Ex_01 {
         while (scannerFicheiro.hasNextLine()) {
             System.out.println(scannerFicheiro.nextLine());
         }
-
     }
 
     public static void main(String[] args) throws FileNotFoundException {

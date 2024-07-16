@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="467462fa-a977-4875-bea9-96123ae712d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Projeto Algoritmia/GameStart - Pedro_Ferreira/src/User/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projeto Algoritmia/GameStart - Pedro_Ferreira/src/User/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projeto Algoritmia/GameStart - Pedro_Ferreira/src/User/Venda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projeto Algoritmia/GameStart - Pedro_Ferreira/src/Utilidades/PressEnterToContinue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto Algoritmia/GameStart - Pedro_Ferreira/src/Consola/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto Algoritmia/GameStart - Pedro_Ferreira/src/Consola/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto Algoritmia/GameStart - Pedro_Ferreira/src/Consola/Venda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto Algoritmia/GameStart - Pedro_Ferreira/src/User/AdminMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto Algoritmia/GameStart - Pedro_Ferreira/src/User/AdminMenu.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2j5xeCZUz4ULVvV5dClZ61C7K2y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/pedroferreira/Documents/Programming/CESAE/CESAE_PedroFerreira/FichasPraticasJava - PCE/FichaPratica07"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="467462fa-a977-4875-bea9-96123ae712d1" name="Changes" comment="" />
+      <created>1720690831121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720690831121</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -74,7 +74,7 @@ public class Ex_09 {
         }while (opcao != 6);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
         lerCsvParaMatriz("exercicio_09.csv");
         String[][] matrizCompleta = lerCsvParaMatriz("exercicio_09.csv");
