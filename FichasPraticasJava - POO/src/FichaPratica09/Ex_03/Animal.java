@@ -6,9 +6,9 @@ public class Animal {
     private String especie;
     private String paisOrigem;
     private double pesoKg;
-    private String[] alimentacao;
+    private Alimentos[] alimentacao;
 
-    public Animal(String nome, String especie, String paisOrigem, double pesoKg, String[] alimentacao){
+    public Animal(String nome, String especie, String paisOrigem, double pesoKg, Alimentos[] alimentacao) {
         this.nome = nome;
         this.especie = especie;
         this.paisOrigem = paisOrigem;
@@ -16,8 +16,17 @@ public class Animal {
         this.alimentacao = alimentacao;
     }
 
-    public void comer(String alimento, double pesoG){
-
+    public double pesoAnimal(){
+        return pesoKg;
     }
 
+    public boolean comer(String alimento, double pesoAlimento) {
+        for (int i = 0; i < alimentacao.length; i++) {
+            if(alimentacao[i].name().equalsIgnoreCase(alimento)){
+                this.pesoKg += pesoAlimento / 100;
+                return true;
+            }
+        }
+        return false;
+    }
 }
