@@ -1,6 +1,7 @@
 package FichaPratica10.Ex_02;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Sorteio {
     private double premio;
@@ -17,6 +18,14 @@ public class Sorteio {
         } else {
             System.out.println("Não é possível inscrever " +participanteNovo.getNome() + " pois tem menos de 18 anos.");
         }
+    }
+
+    public Pessoa sortear(){
+        Random rd = new Random();
+
+        int indexSorteado = rd.nextInt(this.listaParticipantes.size());
+
+        return this.listaParticipantes.get(indexSorteado);
     }
 
     public void exibirDetalhes(){

@@ -14,5 +14,7 @@ public class Ex_02 {
 
         cabazNatal.exibirDetalhes();
 
+        System.out.println("\n***** Vencedor *****");
+        cabazNatal.sortear().exibirDetalhes();
     }
 }
