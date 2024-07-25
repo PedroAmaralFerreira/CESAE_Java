@@ -11,4 +11,20 @@ public class Marisco {
         this.peso = peso;
         this.precoKg = precoKg;
     }
+
+    public String getEspecie() {
+        return especie;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public double getPrecoKg() {
+        return precoKg;
+    }
+
+    public void exibirDetalhes(){
+        System.out.println("Espécie: " + this.especie + " | " + this.peso + " | " + this.precoKg);
+    }
 }

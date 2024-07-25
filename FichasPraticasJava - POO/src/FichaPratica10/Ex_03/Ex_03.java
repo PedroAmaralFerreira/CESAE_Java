@@ -3,10 +3,24 @@
     public class Ex_03 {
         public static void main(String[] args) {
 
-            BarcoPesca barcoPesca = new BarcoPesca(Marca.DEVLIN.name(), "Preto", 2001, 15, 500);
+            Peixe sardinhas = new Peixe("Sardinha", 100, 12);
+            Peixe peixeEspada = new Peixe("Peixe Espada", 150, 50);
+            Peixe dourada = new Peixe("Dourada", 50, 20);
 
-            barcoPesca.pescarPeixe("Carapau", 0.15, 4, 20);
+            Marisco caranguejo = new Marisco("Caranguejo",200,100);
+            Marisco ameijoa = new Marisco("Ameijoa",50,90);
+            Marisco lagosta = new Marisco("Lagosta",150,200);
 
-            barcoPesca.exibirDetalhes();
+            BarcoPesca bp = new BarcoPesca("Santa Maria do Mar", "Branco", 1998, 4, Marca.SMARTILNER, 300);
+
+            bp.addPeixe(sardinhas);
+            bp.addPeixe(dourada);
+
+            bp.addMarisco(caranguejo);
+            bp.addMarisco(ameijoa);
+            bp.addMarisco(lagosta);
+
+            bp.exibirDetalhes();
+
         }
     }
