@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa6643f-b42a-48ac-86b2-3ce4a6387e75" name="Changes" comment="" />
+    <list default="true" id="3fa6643f-b42a-48ac-86b2-3ce4a6387e75" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../TP_POO_PedroFerreira/src/ArmaPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_POO_PedroFerreira/src/Arqueiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_POO_PedroFerreira/src/Cavaleiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_POO_PedroFerreira/src/Consumivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_POO_PedroFerreira/src/ConsumivelCombate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_POO_PedroFerreira/src/Entidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_POO_PedroFerreira/src/Feiticeiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_POO_PedroFerreira/src/Heroi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_POO_PedroFerreira/src/ItemHeroi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_POO_PedroFerreira/src/Jogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_POO_PedroFerreira/src/NPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_POO_PedroFerreira/src/Pocao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_POO_PedroFerreira/src/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CESAE_PedroFerreira.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CESAE_PedroFerreira.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,22 +35,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2j0fUcN1KQDjqw9JtYDLtzeFjCj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/pedroferreira/Documents/Programming/CESAE/CESAE_PedroFerreira/Projeto Algoritmia"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pedroferreira/Documents/Programming/CESAE/CESAE_PedroFerreira/Projeto Algoritmia&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
