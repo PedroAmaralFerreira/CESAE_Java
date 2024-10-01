@@ -1,4 +1,4 @@
-package FichaPratica03;
+package FichaPratica03.Ex_01;
 
 public class Main {
     public static void main(String[] args) {
